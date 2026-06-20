@@ -1,0 +1,23 @@
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hero section */
+#hero {
+  height: 100vh;
+  background: linear-gradient(to right, pink, rebeccapurple);
+  color: white;
+}
+
+/* Botones con efecto hover */
+.btn:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+/* Tarjetas con efecto hover */
+.card:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
